@@ -1,0 +1,116 @@
+.aside {
+    position: relative;
+}
+
+.sidebar {
+    position: fixed;
+    padding: 25px;
+    /*width: 15%;*/
+    background-color: #1e1e1f;
+    border: 1px solid #383838;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.sidebar img {
+    padding: 15px 15px 15px 15px;
+    border-radius: 35px;
+    width: 75%;
+    background-color: #3D3D3E;
+}
+
+.aside_name {
+    color: #EDD98B;
+    margin: 15px 0 0 0;
+}
+
+.aside_badge {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 7px;
+    background-color: #383838;
+    border-radius: 5px;
+    color: #EDD98B;
+}
+
+.hire-me {
+    border: #E6BE62 solid 2px;
+    border-radius: 35px;
+    margin-top: 5px;
+    background: linear-gradient(135deg, #1e1e1f,#383838);
+    text-transform: uppercase;
+    padding: 10px;
+    font-weight: bold;
+    width: 100%;
+    color: #E6BE62;
+}
+
+.hire-me:hover {
+    background: #2a2a2b;
+    color: whitesmoke;
+    border-color: #E6BE62;
+}
+
+.hire-me a {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    align-items: center;
+    text-decoration: none;
+    color: unset;
+    text-transform: none;
+}
+
+@media only screen and (max-width:1050px) {
+    .sidebar{
+        position: unset;
+        width: 90vw;
+        display: flex;
+        gap: 15px;
+        background-color: transparent;
+        margin-bottom: 50px;
+    }
+    .hire-me{
+        width: unset;
+        height: 50px;
+        align-self: center;
+    }
+}
+@media only screen and (max-width:660px){
+    aside{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .sidebar img{
+        width: 50%;
+    }
+    .sidebar hr{
+        display: none;
+    }
+    .sidebar{
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 15px;
+        justify-content: center;
+        width: max-content;
+    }
+}
+@media only screen and (max-width:480px){
+    .sidebar article{
+       flex-basis: 0;
+    }
+}
+@media only screen and (max-width:340px){
+    .sidebar article{
+       flex-basis: unset;
+    }
+    .sidebar{
+        gap: 15px;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .sidebar img{
+        width: 75%;
+    }
+}

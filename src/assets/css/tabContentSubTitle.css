@@ -1,0 +1,10 @@
+section.sub-title h3{
+    margin-left: 15px;
+    display: inline-block;
+    font-weight: bolder;
+    font-size: 24px;
+    letter-spacing: 1px;
+}
+section.sub-title i{
+    margin-top: 0;
+}

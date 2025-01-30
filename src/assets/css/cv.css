@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+#root {
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+body {
+    background: linear-gradient(90deg,#383838,#1e1e1f);
+    font-family: Roboto, serif;
+}
+@media only screen and (max-width:1730px) {
+    #root{
+        gap: 25%;
+
+    }
+}
+
+@media only screen and (max-width:1200px) {
+    #root{
+        gap: 50%;
+    }
+}
+
+@media only screen and (max-width:1050px) {
+    body{
+        margin-top: 0;
+    }
+    #root{
+        flex-direction: column;
+        margin-top: 0;
+        padding-top: 0;
+        align-items: center;
+    }
+}
+@media only screen and (max-width:865px) {
+    body{
+       font-size:12px;
+    }
+    #root{
+        width: 100%;
+    }
+}

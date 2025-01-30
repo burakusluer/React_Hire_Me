@@ -1,0 +1,50 @@
+div.tab_content_content {
+    flex-basis: 100%;
+    padding: 10px 25px 0 25px;
+    justify-self: flex-start;
+}
+
+div.tab_content_content p {
+    line-height: 1.6;
+    letter-spacing: 2px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+div.tab_content_content a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #a99450;
+}
+div.tab_content_content a:hover {
+    transition: ease 0.1s;
+    text-decoration: underline;
+    text-decoration-color: whitesmoke;
+}
+
+div.tab_content_content div:not(:first-child) {
+    display: none;
+}
+
+div.tab_content_content i {
+    max-width: 58px;
+    margin-top: 15px;
+    padding: 15px;
+    /*background: #EDD98B;*/
+    border-radius: 5px;
+    /*background: #EDD98B;*/
+    color: whitesmoke;
+    background: linear-gradient(135deg, #383838, #1e1e1f);
+}
+div.tab_content_content i:hover {
+    background: linear-gradient(135deg, #1e1e1f,#383838);
+    cursor: pointer;
+}
+
+@media only screen and (max-width:1050px) {
+    div.tab_content_content p {
+        line-height: 1.4;
+        letter-spacing: unset;
+        font-size: 16px;
+    }
+}

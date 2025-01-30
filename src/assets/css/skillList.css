@@ -1,0 +1,25 @@
+
+ul.skills-list {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    row-gap: 10px;;
+    padding: 0;
+    color: #E6BE62;
+    margin: 25px 0 15px 0;
+    list-style: none;
+}
+
+ul.skills-list li {
+    margin-left: 10px;
+}
+
+@media only screen and (max-width:1050px) {
+    ul.skills-list{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+@media only screen and (max-width:865px){
+    ul.skills-list{
+        display: none;
+    }
+}

@@ -1,0 +1,16 @@
+.tab_content {
+    width: 800px;
+    border-radius: 15px;
+    background-color: #1e1e1f;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+@media only screen and (max-width:800px){
+    .tab_content {
+        width: 100vw;
+        justify-content: flex-end;
+    }
+}
