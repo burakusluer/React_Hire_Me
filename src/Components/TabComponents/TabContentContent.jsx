@@ -1,5 +1,5 @@
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import {faPerson, faBook} from "@fortawesome/free-solid-svg-icons";
+import {faPerson, faBook,faGraduationCap,faUniversity} from "@fortawesome/free-solid-svg-icons";
 import {faDev} from "@fortawesome/free-brands-svg-icons";
 import "../../assets/css/tabContentContent.css"
 import TabContentSubTitle from "./TabContentSubTitle.jsx";
@@ -18,15 +18,11 @@ export default function TabContentContent({title}) {
             content = <div id="content-education">
                 <TabContentSubTitle title='Akademi' faIcon={<FontAwesomeIcon icon={faBook}/>}/>
                 <p className="sub-content">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam aperiam assumenda dicta,
-                    doloremque dolores eum facilis harum id iure libero magni maiores modi, molestias mollitia
-                    nisi nobis numquam possimus quia rem repellat repellendus sapiente ullam vero. Adipisci,
-                    animi distinctio eius eos esse incidunt modi qui tenetur. A ab accusantium adipisci commodi
-                    excepturi facere fugit illum, impedit itaque modi mollitia nam neque nulla numquam
-                    perferendis quod sed. Aliquam animi aspernatur beatae, cum eligendi explicabo harum hic
-                    impedit ipsum, iure laborum minima molestiae nemo nesciunt officia optio quaerat quidem
-                    quisquam reiciendis, rem sapiente sequi tenetur vel vero voluptatum? Enim quam quisquam
-                    voluptatem.
+                    <ul >
+                        <li><abbr title="Mezun"><FontAwesomeIcon className='icon' icon={faGraduationCap}/></abbr> <p>Celal Bayar Üniversitesi Bilgisayar Programcılığı (Önlisans)</p></li>
+                        <li><abbr title="Mezun"><FontAwesomeIcon className='icon' icon={faGraduationCap}/></abbr><p>Eskişehir Anadolu Üniversitesi İşletme (Lisans)</p></li>
+                        <li><abbr title="kayıt dondurdum"><FontAwesomeIcon className='icon' icon={faUniversity}/></abbr><p>Dokuz Eylül Üniversi Bilgisayar Bilimleri (Lisans)</p></li>
+                    </ul>
                 </p>
             </div>;
             break;
