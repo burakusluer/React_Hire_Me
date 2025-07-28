@@ -27,6 +27,20 @@
       "alt": "Sophie Normand",
       "fullName": "Sophie Normand",
       "text": "Very good and efficient support for WordPress plugin. Burak went the extra miles and is very responsive. Highly recommended"
+    },
+    {
+      "id": "Serkan",
+      "src": "https://placehold.co/100x100",
+      "alt": "Serkan Ataş",
+      "fullName": "Serkan Ataş",
+      "text":"Günümüzde PHP Developer konusunda yetkin birisi bulmak oldukça zor. Kendisinin bu konuda oldukça yetkili olduğunu düşünmekle birlikte diğer programla dillerinde başarılı bir arkadaş. Hayattında başarılar diliyorum."
+    },
+    {
+      "id": "Yasin",
+      "src": "/images/references/5.jpeg",
+      "alt": "Yasin Saltık",
+      "fullName": "Yasin Saltık",
+      "text":"Burak bey, araştırmacı, çalışkan, çözüm odaklı bir yazılım geliştirme uzmanıdır. Test aşamalarında da dikkatlidir. Müşterinin isteklerini anlayıp başarılı çözümler sunmaktadır."
     }
   ]
 }

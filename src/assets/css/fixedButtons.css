@@ -1,0 +1,16 @@
+.fixed-buttons{
+    border-radius: 100%;
+    padding: 20px;
+    height: 20px;
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #1e1e1f,#383838);
+}
+.fixed-buttons button.CVDownload{
+    cursor: pointer;
+    background-color: #a99450;
+}
