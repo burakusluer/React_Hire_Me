@@ -6,7 +6,9 @@ export default function FixedButtons() {
     return (
         <div className='fixed-buttons'>
             <abbr title="Özgeçmişimi İndir">
-                <button className='CVDownload'><i><FontAwesomeIcon className="" icon={faDownload}/></i></button>
+                <a href="/files/Burak%20Usluer.pdf" download='CV.pdf'>
+                    <button className='CVDownload'><i><FontAwesomeIcon className="" icon={faDownload}/></i></button>
+                </a>
             </abbr>
         </div>
     )
