@@ -1,10 +1,12 @@
 {
   "references": [
     {
-      "id": "Görkem",
+      "id": "Görkem ",
       "src": "/images/references/2.jpeg",
-      "alt": "Sophie Normand",
-      "fullName": "Görkem Uluser",
+      "alt": "Görkem Uluser",
+      "fullName": "Görkem Uluser ",
+      "linkedin": "https://www.linkedin.com/in/g%C3%B6rkem-uluser-9166a02a/",
+      "title": "Bookstore Owner",
       "text": "Burak arkadaşımızı yaklaşık 1 senedir tanıyorum ve bu süreç içerisinde 3 farklı iş yapma imkanımız oldu. Bu 3 için eksiksiz olarak istediğimiz işlemleri yapmıştır. Özellikle bu üç için wordpress kısmında bir eklenti tam anlamıyla isteğimizi karşılamıyordu. ..."
     },
     {
@@ -12,6 +14,8 @@
       "src": "/images/references/1.jpeg",
       "alt": "Furkan Uzar",
       "fullName": "Furkan Uzar",
+      "linkedin": "https://www.linkedin.com/in/furkanuzar/",
+      "title": "CTO at OTO",
       "text": "It was pleasure working with Burak. He is a hardworking professional who has extensive experience with ecommerce platform implementations and development. His attitude for work and approach make it very easy to work with him. All the best Burak in your career..."
     },
     {
@@ -19,6 +23,8 @@
       "src": "/images/references/3.jpeg",
       "alt": "Wup Sport Yetkilisi",
       "fullName": "Korcan Ünal",
+      "title": "Sports Marketing & Brand Manager at Puya",
+      "linkedin": "https://www.linkedin.com/in/korcanunal/",
       "text": "WUP Sport markamızın e-ticaret kısmında Woocom altyapısının kurulmasında ve kendi geliştirdiği yazılımlarla gerekli entegrasyonların sağlanması konusunda kendisi deneyimi, yaklaşım tarzı ve proaktif tutumuyla bizlere oldukça yardımcı oldu."
     },
     {
@@ -26,20 +32,26 @@
       "src": "/images/references/4.jpeg",
       "alt": "Sophie Normand",
       "fullName": "Sophie Normand",
+      "title": "Founder – Authentic.ly",
+      "linkedin": "https://www.linkedin.com/in/sophienormand/",
       "text": "Very good and efficient support for WordPress plugin. Burak went the extra miles and is very responsive. Highly recommended"
     },
     {
-      "id": "Serkan",
-      "src": "https://placehold.co/100x100",
-      "alt": "Serkan Ataş",
-      "fullName": "Serkan Ataş",
-      "text":"Günümüzde PHP Developer konusunda yetkin birisi bulmak oldukça zor. Kendisinin bu konuda oldukça yetkili olduğunu düşünmekle birlikte diğer programla dillerinde başarılı bir arkadaş. Hayattında başarılar diliyorum."
+      "id": "Mustafa",
+      "src": "/images/references/mustafa_erdur.jpeg",
+      "alt": "Mustafa Erdur",
+      "title": "IT Manager at NHFood",
+      "linkedin": "https://www.linkedin.com/in/mustafa-erdur-5b8689218",
+      "fullName": "Mustafa Erdur",
+      "text":"Kendisine Pdf dosya olarak bir katalog içindeki ürün resimlerini ve içlerindeki metinden info bilgilerini alacak bir sorunumuzda çözüm üretmesini istedik. Daha evvel Chatgpt Plus ile denemiştik fakat bir sonuç alamamıştık. İşlemi ürettiği python tabanlı program ile başarıyla tamamladı. Seve seve referans oluruz"
     },
     {
       "id": "Yasin",
       "src": "/images/references/5.jpeg",
       "alt": "Yasin Saltık",
       "fullName": "Yasin Saltık",
+      "linkedin": "https://www.linkedin.com/in/yasin-salt%C4%B1k-42210419/",
+      "title": "Can Otomotiv şirketinde Vice General Manager",
       "text":"Burak bey, araştırmacı, çalışkan, çözüm odaklı bir yazılım geliştirme uzmanıdır. Test aşamalarında da dikkatlidir. Müşterinin isteklerini anlayıp başarılı çözümler sunmaktadır."
     }
   ]

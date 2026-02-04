@@ -3,7 +3,7 @@ import TabContentTabs from "./TabContentTabs.jsx";
 import "../../assets/css/tabContent.css"
 import TabContentContent from "./TabContentContent.jsx";
 import {useState} from "react";
-export default function TabContent({title="Hakkımda"}) {
+export default function TabContent({title="About Me"}) {
     const [currentTitle, setTitle] = useState(title);
     function handleTitleChange(newTitle) {
         setTitle(() => newTitle);

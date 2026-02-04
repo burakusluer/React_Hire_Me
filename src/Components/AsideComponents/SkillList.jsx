@@ -20,21 +20,21 @@ export default function SkillList() {
             <AsideListItem>
                 <i> <FontAwesomeIcon className="fa-2x" icon={faWordpress}/></i>
             </AsideListItem>
-            <AsideListItem>
-                <i> <FontAwesomeIcon className="fa-2x" icon={faOpencart}/></i>
-            </AsideListItem>
-            <AsideListItem>
-                <i> <FontAwesomeIcon className="fa-2x" icon={faMagento}/></i>
-            </AsideListItem>
-            <AsideListItem>
-                <i> <FontAwesomeIcon className="fa-2x" icon={faNode}/></i>
-            </AsideListItem>
-            <AsideListItem>
-                <i> <FontAwesomeIcon className="fa-2x" icon={faFlutter}/></i>
-            </AsideListItem>
-            <AsideListItem>
-                <i> <FontAwesomeIcon className="fa-2x" icon={faDev}/></i>
-            </AsideListItem>
+            {/*<AsideListItem>*/}
+            {/*    <i> <FontAwesomeIcon className="fa-2x" icon={faOpencart}/></i>*/}
+            {/*</AsideListItem>*/}
+            {/*<AsideListItem>*/}
+            {/*    <i> <FontAwesomeIcon className="fa-2x" icon={faMagento}/></i>*/}
+            {/*</AsideListItem>*/}
+            {/*<AsideListItem>*/}
+            {/*    <i> <FontAwesomeIcon className="fa-2x" icon={faNode}/></i>*/}
+            {/*</AsideListItem>*/}
+            {/*<AsideListItem>*/}
+            {/*    <i> <FontAwesomeIcon className="fa-2x" icon={faFlutter}/></i>*/}
+            {/*</AsideListItem>*/}
+            {/*<AsideListItem>*/}
+            {/*    <i> <FontAwesomeIcon className="fa-2x" icon={faDev}/></i>*/}
+            {/*</AsideListItem>*/}
         </ul>
     );
 }

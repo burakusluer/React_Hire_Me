@@ -8,14 +8,14 @@ export default function TabContentTabs({titleChangeHandler,title}) {
             <ul>
                 {/*burada Hakkkımda && ("active") shortHand if kullanılması bool false döneceğinden warning e
                      sebep olur o sebepten ternary kullanıldı*/}
-                <li className={title==="Hakkımda" ? 'active' : ""}>
-                    <a onClick={()=>handleTitleChange("Hakkımda")} href="#">Hakkımda</a>
+                <li className={title==="About Me" ? 'active' : ""}>
+                    <a onClick={()=>handleTitleChange("About Me")} href="#">About Me</a>
                 </li>
-                <li className={title==="Eğitim" ? 'active' : ""}>
-                    <a onClick={()=>handleTitleChange("Eğitim")} href="#">Eğitim</a>
+                <li className={title==="Education" ? 'active' : ""}>
+                    <a onClick={()=>handleTitleChange("Education")} href="#">Education</a>
                 </li>
-                <li className={title==="Referanslar" ? 'active' : ""}>
-                    <a onClick={()=>handleTitleChange("Referanslar")} href="#">Referanslar</a>
+                <li className={title==="References" ? 'active' : ""}>
+                    <a onClick={()=>handleTitleChange("References")} href="#">References</a>
                 </li>
             </ul>
         </div>

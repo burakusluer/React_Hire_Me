@@ -9,14 +9,14 @@ export default function InfoList() {
             <AsideListItem>
                 <i><FontAwesomeIcon className='' icon={faPhone}/></i>
                 <div>
-                    <label>Telefon</label>
+                    <label>Phone</label>
                     <a href="tel:+905515996184">+90 551 599 61 84</a>
                 </div>
             </AsideListItem>
             <AsideListItem>
                 <i><FontAwesomeIcon className='' icon={faEnvelope}/></i>
                 <div>
-                    <label htmlFor="">Email</label>
+                    <label htmlFor="">Mail</label>
                     <a href="mailto:burakusluer35csc@gmail.com">burakusluer35csc@gmail.com</a>
                 </div>
 
@@ -33,7 +33,7 @@ export default function InfoList() {
                 <i><FontAwesomeIcon className='' icon={faReact}/></i>
                 <div>
                     <label htmlFor="">React</label>
-                    <a href="#">Vite + React ile yapıldı</a>
+                    <a href="#">Powered By React + Vite</a>
                 </div>
             </AsideListItem>
         </ul>

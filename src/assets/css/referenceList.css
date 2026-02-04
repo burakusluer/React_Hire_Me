@@ -20,7 +20,7 @@ ul.references-list li article{
     display: flex;
     flex-direction: column;
     align-items: center;
-    min-height: 340px;
+    min-height: 440px;
 }
 ul.references-list li h4 {
     margin: 0 5px;
@@ -40,7 +40,29 @@ ul.references-list li p {
     text-align: center;
     padding: 0 10px;
 }
+.reference-title{
+    display: block;
+    margin: 0;
+    max-width: 125px;
+    overflow: hidden;
+    max-height: 70px;
+    text-align: center;
+}
 
+.reference-link {
+    display: inline-block;
+    margin-top: 8px;
+    font-size: 0.85rem;
+    color: #caa45a;
+    text-decoration: none;
+    opacity: 0.85;
+    margin-bottom: 10px;
+}
+
+.reference-link:hover {
+    text-decoration: underline;
+    opacity: 1;
+}
 @media only screen and (max-width:510px){
     ul.references-list{
         grid-template-columns: repeat(2,1fr);

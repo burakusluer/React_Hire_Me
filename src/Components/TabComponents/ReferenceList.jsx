@@ -5,7 +5,7 @@ export default function ReferenceList() {
     return (
         <section className="references">
             <ul className="references-list">
-                {...references.map(data=><ReferenceListItem id={data.id} src={data.src} alt={data.alt} fullName={data.fullName} text={data.text}/>)}
+                {...references.map(data=><ReferenceListItem id={data.id} src={data.src} alt={data.alt} fullName={data.fullName} title={data.title} linkedin={data.linkedin} text={data.text}/>)}
             </ul>
         </section>
     )

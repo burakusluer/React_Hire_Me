@@ -10,7 +10,9 @@ div.tab_content_content p {
     font-size: 18px;
     font-weight: bold;
 }
-
+div.tab_content_content ul{
+    line-height: 1.3;
+}
 div.tab_content_content a {
     text-decoration: none;
     cursor: pointer;

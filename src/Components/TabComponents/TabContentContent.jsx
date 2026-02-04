@@ -8,52 +8,51 @@ import ReferenceList from "./ReferenceList.jsx";
 export default function TabContentContent({title}) {
     let content;
     switch (title) {
-        case ("Referanslar"):
+        case ("References"):
             content = <div id="content-references">
-                <TabContentSubTitle title='Memnun Müşteriler' faIcon={<FontAwesomeIcon icon={faPerson}/>}/>
+                <TabContentSubTitle title='My Customers' faIcon={<FontAwesomeIcon icon={faPerson}/>}/>
                 <ReferenceList/>
             </div>;
             break;
-        case ("Eğitim"):
+        case ("Education"):
             content = <div id="content-education">
-                <TabContentSubTitle title='Akademi' faIcon={<FontAwesomeIcon icon={faBook}/>}/>
+                <TabContentSubTitle title='Academia' faIcon={<FontAwesomeIcon icon={faBook}/>}/>
                 <p className="sub-content">
                     <ul >
-                        <li><abbr title="Mezun"><FontAwesomeIcon className='icon' icon={faGraduationCap}/></abbr> <p>Celal Bayar Üniversitesi Bilgisayar Programcılığı (Önlisans)</p></li>
-                        <li><abbr title="Mezun"><FontAwesomeIcon className='icon' icon={faGraduationCap}/></abbr><p>Eskişehir Anadolu Üniversitesi İşletme (Lisans)</p></li>
-                        <li><abbr title="kayıt dondurdum"><FontAwesomeIcon className='icon' icon={faUniversity}/></abbr><p>Dokuz Eylül Üniversi Bilgisayar Bilimleri (Lisans)</p></li>
+                        <li><abbr title="Mezun"><FontAwesomeIcon className='icon' icon={faGraduationCap}/></abbr> <p>Celal Bayar Üniversitesi Bilgisayar Programcılığı (Associate)</p></li>
+                        <li><abbr title="Mezun"><FontAwesomeIcon className='icon' icon={faGraduationCap}/></abbr><p>Eskişehir Anadolu Üniversitesi İşletme (Bachelor)</p></li>
+                        <li><abbr title="kayıt dondurdum"><FontAwesomeIcon className='icon' icon={faUniversity}/></abbr><p>Dokuz Eylül Üniversi Bilgisayar Bilimleri (Bachelor)</p></li>
                     </ul>
                 </p>
             </div>;
             break;
         default:
             content = <div id="content-description">
-                <TabContentSubTitle title='Biyografi' faIcon={<FontAwesomeIcon icon={faDev}/>}/>
-                <p>Ben Burak Usluer, İzmir’de ikamet eden ve Bilişim sektöründe özellikle yazılım geliştirme alanında
-                    uzmanlaşmış bir profesyonelim. Kariyerim boyunca edindiğim deneyimler ve kazandığım becerilerle,
-                    şirketinize & projelerinize değer katabileceğime inanıyorum.</p>
+                <TabContentSubTitle title='Biography' faIcon={<FontAwesomeIcon icon={faDev}/>}/>
+                <h2>E-Commerce Integration Specialist</h2>
+                <h3>WordPress & Laravel Developer</h3>
+                <p>I build custom integrations for Turkish e-commerce platforms:</p>
+                <p>Real Projects:</p>
+                <ul>
+                    <li>Automated 8,000-product sync system for WooCommerce using XML API polling + WP-Cron batching (eliminated 100+ hours of manual work)</li>
+                    <li>Marketplace integration handling multi-channel orders</li>
+                    <li>Real-time attendance system for educational institutions</li>
 
-                <p>Eğitim hayatımda Celal Bayar Üniversitesi Bilgisayar Programcılığı/Dokuz Eylül Üniversitesi
-                    Bilgisayar Bilimleri(3.sınıf kayıt dondurdum) bölümünden mezun oldum. Bu süreçte edindiğim teorik
-                    bilgileri, iş hayatında pratik deneyimlerle pekiştirdim. Özellikle Java ile optik sınav okuyucu(Iron OCR)
-                    projesinde elde ettiğim başarı, problem çözme ve liderlik yeteneklerimi geliştirmeme katkı
-                    sağladı.</p>
-
-                <p>Profesyonel kariyerimde, Softetic Bilişim firmasında Yazılım Geliştirme Uzmanı olarak görev aldım. Bu
-                    pozisyonda, Opencart/WordPress/Magento Eklenti ve Tema geliştirme gibi önemli sorumlulukları
-                    üstlendim ve başarılı sonuçlar elde ettim. Ayrıca, Front-end tarafı için js,jquery yanı sıra react
-                    gibi js kütüphaneleri/Back-end tarafında ise php frameworkleri Laravel,symphony,CI(özellikle 3
-                    versiyonu)konusundaki yetkinliğim sayesinde, ekibime ve projelerimize önemli katkılarda
-                    bulundum.</p>
-
-                <p>Teknik becerilerimin yanı sıra, iletişim ve takım çalışmasına verdiğim önemle de dikkat çekerim.
-                    Farklı departmanlar ve disiplinlerle uyum içinde çalışarak, projelerin başarılı bir şekilde
-                    tamamlanmasını sağladım. Ayrıca, sürekli öğrenme ve kendini geliştirme prensibini benimseyerek,
-                    sektördeki yenilikleri ve trendleri yakından takip ederim.</p>
-
-                <p>Şirketinize & Projelerinize destek olmam ve tecrübelerimi değerlendirmek için benim ile iletişime
-                    geçin</p>
-                <p>Kariyer.net cv si için <a target='_blank' href="https://www.kariyer.net/ozgecmis/burakusluer9465">Tıklayın</a></p>
+                </ul>
+                <br/>
+                <p>Tech Stack: PHP, Laravel, WordPress, WooCommerce, React, Docker</p>
+                <p>Location: Izmir, Turkey (Remote available)</p>
+                <br/>
+                <p>Currently available for:</p>
+                <ul>
+                    <li>Trendyol, N11 marketplace integrations (Turkish e-commerce)</li>
+                    <li>WooCommerce bulk product import/sync (1,000-10,000 products)</li>
+                    <li>REST API integrations with legacy systems</li>
+                </ul>
+                <p>Rate: ₺400-500/hour or project-based pricing</p>
+                <p>Ready to discuss your project: burakusluer35cs@gmail.com</p>
+                <p>View my work: <a href="https://github.com/burakusluer">Github</a></p>
+                <p>Book a free 15-minute consultation: <a href="https://wa.me/+905515996184">Whatsapp</a></p>
             </div>;
             break;
     }
