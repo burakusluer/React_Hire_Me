@@ -10,6 +10,7 @@
     border: 1px solid #383838;
     text-align: center;
     border-radius: 15px;
+    margin-left: -60px;
 }
 
 .sidebar img {
@@ -26,7 +27,11 @@
 
 .aside_badge {
     display: inline-block;
-    margin-top: 15px;
+    font-size: 90%;
+    letter-spacing: .35px;
+    margin-top: 10px;
+    font-weight: 600;
+    line-height: 1.2;
     padding: 7px;
     background-color: #383838;
     border-radius: 5px;
@@ -94,6 +99,7 @@
         gap: 15px;
         justify-content: center;
         width: max-content;
+        margin-left: 0;
     }
 }
 @media only screen and (max-width:480px){

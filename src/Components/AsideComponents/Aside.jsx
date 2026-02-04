@@ -11,7 +11,7 @@ export default function Aside() {
                 <article>
                     <img src={myPhoto} alt=""/>
                     <h2 className="aside_name">Burak Usluer</h2>
-                    <p className="aside_badge">Software Developer</p>
+                    <p className="aside_badge">Full-Stack Developer – WordPress & Laravel</p>
                 </article>
                 <hr/>
                 <InfoList/>
